@@ -1,0 +1,29 @@
+.monster-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.monster-item {
+  width: 33.33%;
+  padding: 15px;
+}
+.monster-item-container {
+  background: rgb(99, 232, 255);
+  padding: 10px;
+}
+.monster-item img {
+  max-width: 100%;
+}
+
+@media all and (max-width: 900px) {
+  .monster-item {
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .monster-item {
+    width: 100%;
+  }
+}

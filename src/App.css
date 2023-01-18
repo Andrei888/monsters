@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  background: rgb(36, 4, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(36, 4, 247, 1) 0%,
+    rgba(4, 225, 247, 1) 100%
+  );
+}
+
+.App {
+  display: flex;
+}
+.app-item {
+  width: 50%;
+}
